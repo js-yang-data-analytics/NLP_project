@@ -19,7 +19,6 @@ Our pipeline consists of five main steps:
 5. **Final Dataset Construction:** Outputs the verified negative dataset for downstream model training.
 
 ## 📂 Repository Contents
-## 📂 Repository Contents
 * `drugbank_final.ipynb`: Implementation of the LLM-based verification pipeline (Gemini Flash-Lite and GPT-4o-mini) and final verified negative dataset generation for the **DrugBank** dataset.
 * `KEGG_final.ipynb`: Implementation of the LLM-based verification pipeline (Gemini Flash-Lite and GPT-4o-mini) and final verified negative dataset generation for the **KEGG** dataset.
 
