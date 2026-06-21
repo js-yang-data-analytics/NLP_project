@@ -1,9 +1,9 @@
 # Not All Negatives Are Equal: LLM-based Negative Sample Verification for Drug-Drug Interaction Prediction
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
-[![Conference](https://img.shields.io/badge/CIKM-2026-brightgreen.svg)](https://www.cikmconference.org/)
+[![Status](https://img.shields.io/badge/Status-Under%20Review-orange.svg)]()
 
-Official repository for the paper **"Not All Negatives Are Equal: LLM-based Negative Sample Verification for Drug-Drug Interaction Prediction"** (CIKM 2026).
+Official repository for the paper **"Not All Negatives Are Equal: LLM-based Negative Sample Verification for Drug-Drug Interaction Prediction"** (Under Review).
 
 ## 📌 Overview
 Drug-Drug Interactions (DDIs) pose a direct threat to patient safety. Existing Knowledge Graph (KG)-based DDI prediction models typically rely on random negative sampling under the Local Closed-World Assumption (LCWA). However, this introduces the **Positive-Unlabeled (PU) problem**, where unverified drug pairs are mislabeled as negatives, acting as noise in the training signal.
@@ -27,3 +27,13 @@ Our pipeline consists of five main steps:
 ### Datasets
 * **DrugBank:** Widely used benchmark for DDI prediction.
 * **KEGG:** Biological relationship information at the metabolic pathway level.
+
+## 📄 Citation
+If you find this code or research helpful, please cite our paper (currently under review):
+```bibtex
+@article{anonymous2026notallnegatives,
+  title={Not All Negatives Are Equal: LLM-based Negative Sample Verification for Drug-Drug Interaction Prediction},
+  author={Anonymous},
+  journal={Under Review},
+  year={2026}
+}
