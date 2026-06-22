@@ -21,12 +21,16 @@ Our pipeline consists of five main steps:
 ## 📂 Repository Contents
 * `drugbank_final.ipynb`: Implementation of the LLM-based verification pipeline (Gemini Flash-Lite and GPT-4o-mini) and final verified negative dataset generation for the **DrugBank** dataset.
 * `KEGG_final.ipynb`: Implementation of the LLM-based verification pipeline (Gemini Flash-Lite and GPT-4o-mini) and final verified negative dataset generation for the **KEGG** dataset.
+* `TIGER/tiger.ipynb`: Downstream DDI prediction model (TIGER) training and evaluation code.
 
 ## 🚀 Getting Started
 
 ### Datasets
 * **DrugBank:** Widely used benchmark for DDI prediction.
 * **KEGG:** Biological relationship information at the metabolic pathway level.
+
+### Running the Model
+To train and evaluate the downstream TIGER model with the verified negative datasets, navigate to the `TIGER` Google Drive folder and run the `tiger.ipynb` file (e.g., via Google Colab).
 
 ## 📄 Citation
 If you find this code or research helpful, please cite our paper (currently under review):
